@@ -311,7 +311,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-img\ phone\ 1x.png);
+    url(../images/hero-img-phone-1x.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -323,7 +323,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-img\ phone\ 2x.png);
+      url(../images/hero-img-phone-2x.png);
   }
 }
 
@@ -367,11 +367,15 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero\ image\ tablet\ 1x.png);
+      url(../images/hero-image-tablet-1x.png);
   }
   @media (min-resolution: 192dpi) {
     .hero {
-      background-color: url(../images/hero-img\ tablet\ 2x.png);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-img-tablet-2x.png);
     }
   }
   .hero-title {
@@ -390,13 +394,17 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-img\ deskstop\ 1x.png);
+      url(../images/hero-img-deskstop-1x.png);
 
     max-width: 1440px;
   }
   @media (min-resolution: 192dpi) {
     .hero {
-      background-color: url(../images/hero-img\ desktop\ 2x.png);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-img-desktop-2x.png);
     }
   }
   .hero-title {
